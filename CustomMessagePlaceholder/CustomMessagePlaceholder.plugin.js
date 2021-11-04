@@ -3,7 +3,7 @@
  * @version 0.0.1
  * @author Radu
  * @description Changes the placeholder in the message bar
- * @updateUrl https://raw.githubusercontent.com/coderadu/better-discord-plugins/CustomMessagePlaceholder/CustomMessagePlaceholder.plugin.js
+ * @updateUrl https://raw.githubusercontent.com/coderadu/better-discord-plugins/main/CustomMessagePlaceholder/CustomMessagePlaceholder.plugin.js
  **/
 
 module.exports = class CustomMessagePlaceholder {

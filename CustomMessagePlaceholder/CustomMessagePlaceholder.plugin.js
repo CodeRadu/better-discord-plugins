@@ -46,7 +46,8 @@ module.exports = class CustomMessagePlaceholder {
       input.addEventListener("change", (e) => {
         BdApi.setData(this.config.info.name, "placeholder", input.value);
       });
-    }, 1000);
+      input.value = BdApi.loadData(this.config.info.name, "placeholder");
+    }, 200);
     return this.getSettingsPanelHtml();
   }
   getSettingsPanelHtml() {

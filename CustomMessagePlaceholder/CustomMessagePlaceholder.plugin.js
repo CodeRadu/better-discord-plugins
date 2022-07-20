@@ -27,7 +27,7 @@ module.exports = class CustomMessagePlaceholder {
   start() {
     console.log("[CustomMessagePlaceholder] has started");
     this.interval = setInterval(() => {
-      const placeholder = document.querySelector(".placeholder-37qJjk");
+      const placeholder = document.querySelector(".placeholder-1rCBhr");
       if (placeholder) {
         placeholder.innerHTML = BdApi.loadData(
           this.config.info.name,
